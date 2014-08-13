@@ -28,7 +28,7 @@ see Piotr J. Kula: Raspberry Pi Server Essentials, Packt Publishing, 2014. p37-3
 ###Setup cron to start the download script regularly
 
 ###Setup a fbi script to displaying the content of the script folder continuously
-fbi -noverbose -a -t 5 /~/TalkingPlant/down/*.png"
+fbi -noverbose -a -t 5 /~/TalkingPlant/down/\*.png"
 /path/to/images/*.png
 install
 script
